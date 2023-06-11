@@ -1,0 +1,163 @@
+// Файл обнуляющих стилей
+@import "nullstyle.scss";
+
+body {
+    // background-color: aqua;
+}
+
+.wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.container {
+    border: solid;
+    margin: 0 auto;
+    min-width: 1023px;
+    max-width: 1023px;
+    // min-height: 759px;
+}
+.header {
+    // justify-content: space-between;
+    // display: flex;
+    border: solid;
+    min-height: 87px;
+    &__row {
+        display: flex;
+        justify-content: space-between;
+    }
+    a {
+        padding-top: 8px;
+    }
+    span {
+        padding-top: 8px;
+    }
+    .tel {
+        padding-right: 10px;
+    }
+    &__title-title {
+        // margin-top: 30px;
+        font-family: "Sansus Webissimo";
+        font-size: 42px;
+        line-height: 22px;
+        font-weight: 400;
+        text-shadow: 0px 1px 0px #ffffff;
+        color: #3f3f3f;
+        display: flex;
+    }
+    &__item {
+        margin: 15px 0 0 38px;
+    }
+    &__title {
+        margin: 38px 0 0 10px;
+    }
+
+    &__links {
+        color: red;
+        padding-top: 57px;
+        padding-right: 36px;
+        font-size: 16px;
+    }
+    &__row-2 {
+        padding-right: 15px;
+        min-width: 1017px;
+        max-width: 1017px;
+        // display: flex;
+        // justify-content: space-between;
+    }
+    &__home1 {
+        padding-left: 10px;
+        color: #ffffff;
+        min-width: 58px;
+        background-color: black;
+    }
+    &__home {
+        color: #ffffff;
+        min-width: 58px;
+    }
+    &__links-second {
+        // color: white;
+        min-height: 33px;
+        background-color: red;
+        font-size: 16px;
+        margin-top: 10px;
+        margin-left: 10px;
+        // margin-right: 36px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__phone {
+    }
+}
+
+.main {
+    &__section-1 {
+    }
+    &__row {
+        margin-left: 10px;
+        margin-right: 10px;
+        max-width: 1011px;
+        min-height: 311px;
+        display: flex;
+        margin-top: 10px;
+    }
+    &__gold {
+        min-width: 675px;
+        display: flex;
+        background-color: red;
+    }
+    &__body {
+    }
+    &__title {
+        min-height: 100px;
+        font-family: "Times New Roman";
+        // font-family: "Bebas Neue";
+        font-size: 42px;
+        line-height: 22px;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #f6ee79;
+    }
+    &__foto {
+    }
+    &__text {
+    }
+    &__image {
+    }
+    &__login {
+        background-color: black;
+        min-width: 271px;
+        margin-left: 14px;
+    }
+    &__title-login {
+    }
+    &__input {
+    }
+    &__button {
+    }
+    &__title-button {
+    }
+    &__section-2 {
+    }
+    &__row-2 {
+    }
+    &__our {
+    }
+    &__title-our {
+    }
+    &__how {
+    }
+    &__title-how {
+    }
+    &__images {
+    }
+}
+
+.footer {
+    border: solid;
+    min-height: 60px;
+    &__first {
+    }
+    &__second {
+        margin-left: 594px;
+    }
+}
