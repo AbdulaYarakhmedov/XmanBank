@@ -28,8 +28,14 @@ body {
     a {
         padding-top: 8px;
     }
-    span {
+    .span {
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        padding-left: 10px;
+        padding-right: 15px;
         padding-top: 8px;
+        color: white;
+        background-color: black;
     }
     .tel {
         padding-right: 10px;
@@ -65,7 +71,10 @@ body {
         // justify-content: space-between;
     }
     &__home1 {
-        padding-left: 10px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        padding-left: 20px;
+        padding-right: 10px;
         color: #ffffff;
         min-width: 58px;
         background-color: black;
@@ -75,6 +84,7 @@ body {
         min-width: 58px;
     }
     &__links-second {
+        border-radius: 5px;
         // color: white;
         min-height: 33px;
         background-color: red;
@@ -101,27 +111,37 @@ body {
         margin-top: 10px;
     }
     &__gold {
+        border-radius: 5px;
         min-width: 675px;
         display: flex;
-        background-color: red;
+        background-color: rgb(255, 0, 0);
     }
     &__body {
     }
     &__title {
-        min-height: 100px;
-        font-family: "Times New Roman";
-        // font-family: "Bebas Neue";
-        font-size: 42px;
+        padding: 60px 0 0 40px;
+        // font-family: "Times New Roman";
+        font-family: "Bebas Neue";
+        font-size: 30px;
         line-height: 22px;
         font-weight: 400;
         text-transform: uppercase;
         color: #f6ee79;
     }
     &__foto {
+        padding: 10px 0 0 40px;
     }
     &__text {
+        padding: 10px 0 0 40px;
+        font-family: "Bebas Neue";
+        font-size: 28px;
+        line-height: 31px;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #ebe8e8;
     }
     &__image {
+        padding-top: 60px;
     }
     &__login {
         background-color: black;
@@ -131,6 +151,14 @@ body {
     &__title-login {
     }
     &__input {
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+    button {
+        margin:  10px 0 0 30px;
+    }
+    input {
+        min-width: 221px;
     }
     &__button {
     }
@@ -139,25 +167,69 @@ body {
     &__section-2 {
     }
     &__row-2 {
+        display: flex;
     }
     &__our {
+        margin: 24px 0 0 0;
     }
-    &__title-our {
+    h1 {
+        font-family: "Helvetica Neue CE";
+        font-size: 22px;
+        line-height: 22px;
+        font-weight: 700;
+        color: #e24335;
+        margin: 0 0 0 51px;
+    }
+    ul {
+        font-family: "Helvetica Neue";
+        font-size: 14px;
+        line-height: 25px;
+        font-weight: 400;
+        color: #737070;
+        margin: 31px 0 0 82px;
     }
     &__how {
+    }
+    h2 {
+        font-family: "Helvetica Neue CE";
+        font-size: 22px;
+        line-height: 22px;
+        font-weight: 700;
+        color: #e24335;
+        margin: 26px 0 0 43px;
     }
     &__title-how {
     }
     &__images {
+        padding: 48px 0 0 70px;
+    }
+    .b,
+    .c {
+        padding-left: 100px;
     }
 }
 
 .footer {
+    align-items: center;
+    display: flex;
+    // text-align: center;
+    background-color: black;
     border: solid;
     min-height: 60px;
     &__first {
+        font-family: "Bebas Neue";
+        font-size: 28px;
+        line-height: 31px;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #ebe8e8;
     }
     &__second {
-        margin-left: 594px;
+        font-family: Helvetica;
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 400;
+        color: #ececec;
+        margin-left: 570px;
     }
 }
