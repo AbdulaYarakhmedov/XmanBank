@@ -14,7 +14,6 @@ body {
     margin: 0 auto;
     min-width: 1023px;
     max-width: 1023px;
-    // min-height: 759px;
 }
 .header {
     // justify-content: space-between;
@@ -110,13 +109,28 @@ body {
         display: flex;
         margin-top: 10px;
     }
+    @media (max-width: 900px) {
+        .main__row {
+            display: block;
+        }
+        @media (max-width: 600px) {
+            .main__gold, .main__row-2 {
+                display: block;
+            }
+            .main__row-2 {
+                margin-left: 200px;
+            }
+        }
+    }
     &__gold {
         border-radius: 5px;
         min-width: 675px;
         display: flex;
         background-color: rgb(255, 0, 0);
     }
+
     &__body {
+        display: block;
     }
     &__title {
         padding: 60px 0 0 40px;
@@ -148,21 +162,66 @@ body {
         min-width: 271px;
         margin-left: 14px;
     }
+    &__base-title {
+        margin-top: 20px;
+        margin-left: 30px;
+        display: flex;
+    }
     &__title-login {
+        margin-left: 5px;
+        font-family: "Helvetica Neue Cond";
+        font-size: 20px;
+        line-height: 22px;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: #ececec;
     }
     &__input {
+        
         margin-left: 30px;
         margin-top: 10px;
     }
+    input {
+        font-size: 16px;
+        padding-left: 20px;
+    }
+    .submit {
+        margin-top: 50px;
+        background-color: #e24335;
+        min-height: 37px;
+        min-width: 87px;
+    }
+    .submit-2 {
+        margin-top: 20px;
+        background-color: #e24335;
+        min-width: 184px;
+        min-height: 36px;
+    }
     button {
-        margin:  10px 0 0 30px;
+        border-radius: 5px;
+        font-family: "Helvetica Std";
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 700;
+        text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
+        color: #ececec;
     }
     input {
+        min-height: 30px;
         min-width: 221px;
     }
     &__button {
+        text-align: center;
     }
     &__title-button {
+        margin-top: 10px;
+        text-align: center;
+        font-family: "Helvetica Neue Cond";
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: #ececec;
     }
     &__section-2 {
     }
@@ -172,31 +231,7 @@ body {
     &__our {
         margin: 24px 0 0 0;
     }
-    h1 {
-        font-family: "Helvetica Neue CE";
-        font-size: 22px;
-        line-height: 22px;
-        font-weight: 700;
-        color: #e24335;
-        margin: 0 0 0 51px;
-    }
-    ul {
-        font-family: "Helvetica Neue";
-        font-size: 14px;
-        line-height: 25px;
-        font-weight: 400;
-        color: #737070;
-        margin: 31px 0 0 82px;
-    }
     &__how {
-    }
-    h2 {
-        font-family: "Helvetica Neue CE";
-        font-size: 22px;
-        line-height: 22px;
-        font-weight: 700;
-        color: #e24335;
-        margin: 26px 0 0 43px;
     }
     &__title-how {
     }
@@ -207,6 +242,33 @@ body {
     .c {
         padding-left: 100px;
     }
+}
+h1 {
+    font-family: "Helvetica Neue CE";
+    font-size: 22px;
+    line-height: 22px;
+    font-weight: 700;
+    color: #e24335;
+    margin: 0 0 0 51px;
+}
+ul {
+    padding-left: 25px;
+    background: url(/img/mark.png) left no-repeat;
+    font-family: "Helvetica Neue";
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #737070;
+    margin: 31px 0 10px 82px;
+}
+
+h2 {
+    font-family: "Helvetica Neue CE";
+    font-size: 22px;
+    line-height: 22px;
+    font-weight: 700;
+    color: #e24335;
+    margin: 26px 0 0 43px;
 }
 
 .footer {
