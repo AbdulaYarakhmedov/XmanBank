@@ -2,23 +2,24 @@
 @import "nullstyle.scss";
 
 body {
-    // background-color: aqua;
+    background-color: aqua;
 }
 
 .wrapper {
+    background-color: #e24335;
     max-width: 1280px;
     margin: 0 auto;
+
 }
 .container {
-    border: solid;
+    background-color: white;
+    // border: solid;
     margin: 0 auto;
+    // margin-top: 20px;
     min-width: 1023px;
     max-width: 1023px;
 }
 .header {
-    // justify-content: space-between;
-    // display: flex;
-    border: solid;
     min-height: 87px;
     &__row {
         display: flex;
@@ -64,7 +65,7 @@ body {
     }
     &__row-2 {
         padding-right: 15px;
-        min-width: 1017px;
+        min-width: 1025px;
         max-width: 1017px;
         // display: flex;
         // justify-content: space-between;
@@ -90,7 +91,6 @@ body {
         font-size: 16px;
         margin-top: 10px;
         margin-left: 10px;
-        // margin-right: 36px;
         display: flex;
         justify-content: space-between;
     }
@@ -158,6 +158,7 @@ body {
         padding-top: 60px;
     }
     &__login {
+        border-radius: 5px;
         background-color: black;
         min-width: 271px;
         margin-left: 14px;
@@ -240,7 +241,7 @@ body {
     }
     .b,
     .c {
-        padding-left: 100px;
+        padding-left: 90px;
     }
 }
 h1 {
@@ -278,6 +279,7 @@ h2 {
     background-color: black;
     border: solid;
     min-height: 60px;
+
     &__first {
         font-family: "Bebas Neue";
         font-size: 28px;
@@ -285,6 +287,7 @@ h2 {
         font-weight: 400;
         text-transform: uppercase;
         color: #ebe8e8;
+        margin-left: 10px;
     }
     &__second {
         font-family: Helvetica;
@@ -293,5 +296,6 @@ h2 {
         font-weight: 400;
         color: #ececec;
         margin-left: 570px;
+        
     }
 }
