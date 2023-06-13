@@ -1,6 +1,16 @@
 // Файл обнуляющих стилей
 @import "nullstyle.scss";
 
+@font-face {
+    font-family: "Bebas Neue";
+    src: url(/fonts/BebasNeue-Regular.ttf);
+
+}
+@font-face {
+    font-family: "Helvetica";
+    src: url(/fonts/helvetica-light-587ebe5a59211.ttf);
+}
+
 body {
     background-color: aqua;
 }
@@ -9,7 +19,6 @@ body {
     background-color: #e24335;
     max-width: 1280px;
     margin: 0 auto;
-
 }
 .container {
     background-color: white;
@@ -42,10 +51,10 @@ body {
     }
     &__title-title {
         // margin-top: 30px;
-        font-family: "Sansus Webissimo";
+        font-family: "Helvetica";
         font-size: 42px;
         line-height: 22px;
-        font-weight: 400;
+        font-weight: 700;
         text-shadow: 0px 1px 0px #ffffff;
         color: #3f3f3f;
         display: flex;
@@ -114,7 +123,8 @@ body {
             display: block;
         }
         @media (max-width: 600px) {
-            .main__gold, .main__row-2 {
+            .main__gold,
+            .main__row-2 {
                 display: block;
             }
             .main__row-2 {
@@ -134,7 +144,6 @@ body {
     }
     &__title {
         padding: 60px 0 0 40px;
-        // font-family: "Times New Roman";
         font-family: "Bebas Neue";
         font-size: 30px;
         line-height: 22px;
@@ -170,7 +179,7 @@ body {
     }
     &__title-login {
         margin-left: 5px;
-        font-family: "Helvetica Neue Cond";
+        font-family: "Helvetica";
         font-size: 20px;
         line-height: 22px;
         font-weight: 500;
@@ -178,7 +187,6 @@ body {
         color: #ececec;
     }
     &__input {
-        
         margin-left: 30px;
         margin-top: 10px;
     }
@@ -187,12 +195,14 @@ body {
         padding-left: 20px;
     }
     .submit {
+        font-family: Helvetica;
         margin-top: 50px;
         background-color: #e24335;
         min-height: 37px;
         min-width: 87px;
     }
     .submit-2 {
+        font-family: Helvetica;
         margin-top: 20px;
         background-color: #e24335;
         min-width: 184px;
@@ -217,7 +227,7 @@ body {
     &__title-button {
         margin-top: 10px;
         text-align: center;
-        font-family: "Helvetica Neue Cond";
+        font-family: "Helvetica";
         font-size: 16px;
         line-height: 22px;
         font-weight: 500;
@@ -230,6 +240,7 @@ body {
         display: flex;
     }
     &__our {
+        // font-family: helvetica-light-587ebe5a59211;
         margin: 24px 0 0 0;
     }
     &__how {
@@ -245,7 +256,8 @@ body {
     }
 }
 h1 {
-    font-family: "Helvetica Neue CE";
+    font-family: "Helvetica";
+    // font-family: "Helvetica Neue CE";
     font-size: 22px;
     line-height: 22px;
     font-weight: 700;
@@ -255,7 +267,7 @@ h1 {
 ul {
     padding-left: 25px;
     background: url(/img/mark.png) left no-repeat;
-    font-family: "Helvetica Neue";
+    font-family: "Helvetica";
     font-size: 14px;
     line-height: 25px;
     font-weight: 400;
@@ -264,7 +276,7 @@ ul {
 }
 
 h2 {
-    font-family: "Helvetica Neue CE";
+    font-family: "Helvetica";
     font-size: 22px;
     line-height: 22px;
     font-weight: 700;
@@ -296,6 +308,5 @@ h2 {
         font-weight: 400;
         color: #ececec;
         margin-left: 570px;
-        
     }
 }
