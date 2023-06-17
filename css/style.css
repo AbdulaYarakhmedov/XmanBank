@@ -137,12 +137,14 @@ body {
   margin: 38px 0 0 10px;
 }
 .header__links {
+  font-family: Helvetica;
   color: red;
   padding-top: 57px;
   padding-right: 36px;
   font-size: 16px;
 }
 .header__row-2 {
+  font-family: Helvetica;
   padding-right: 15px;
   min-width: 1025px;
   max-width: 1017px;
@@ -161,6 +163,7 @@ body {
   min-width: 58px;
 }
 .header__links-second {
+  font-family: Helvetica;
   border-radius: 5px;
   min-height: 33px;
   background-color: red;
@@ -284,7 +287,7 @@ body {
   text-align: center;
 }
 .main__title-button {
-  margin-top: 10px;
+  margin-top: 20px;
   text-align: center;
   font-family: "Helvetica";
   font-size: 16px;
